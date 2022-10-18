@@ -8,7 +8,7 @@ export default function Header() {
                 <div className="container">
                     <a href="/" className="navbar-brand">
                         {/* <img src="img/skyhawk_kinetic_logo.png" alt="skyhawk kinetic logo" className="img-fluid my__logo" /> */}
-                       <b> <h3 style={{color: '#fff'}}>Elite Virtual Employee</h3></b>
+                       <b> <h3 style={{color: '#323232'}}>Elite Virtual Employee</h3></b>
                     </a>
                     <button className="navbar-toggler my__btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="ti-menu"></span>

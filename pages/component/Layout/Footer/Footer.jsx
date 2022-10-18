@@ -88,9 +88,9 @@ export default function Footer() {
                                         <ul className="get-in-touch-list">
                                             {/* <li className="d-flex align-items-center py-2"><span className="fas fa-map-marker-alt mr-2"></span> D336,  Sector 10, Noida, Uttar Pradesh 201301</li> */}
                                             <a href="mailto:info@elitevirtualemployee.com" className="footer__link"><li className="d-flex align-items-center py-2"><span className="fas fa-envelope mr-2"></span> info@elitevirtualemployee.com</li></a>
-                                            <a href="tel:+61880041911" className="footer__link"><li className="d-flex align-items-center py-2"><span className="fas fa-phone-alt mr-2"></span>Australia +61880041911</li></a>
+                                            
                                             <a href="tel:+15405841911" className="footer__link"><li className="d-flex align-items-center py-2"><span className="fas fa-phone-alt mr-2"></span>USA +15405841911</li></a>
-                                            <a href="tel:+448081966911" className="footer__link"><li className="d-flex align-items-center py-2"><span className="fas fa-phone-alt mr-2"></span>UK +448081966911</li></a>
+                                           
                                             <a href="tel:+18339310123" className="footer__link"><li className="d-flex align-items-center py-2"><span className="fas fa-phone-alt mr-2"></span>Canada +18339310123</li></a>
                                         </ul>
                                     </div>

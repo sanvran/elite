@@ -84,8 +84,8 @@ const contact = () => {
 										<div className="pb-2">
 											<span className="ti-mobile icon-sm color-secondary" />
 										</div>
-										<a href="mailto:hr@skyhawkkinetic.com"><div><h5 className="mb-0">Join us</h5>
-											<p className="text-muted mb-0">hr@skyhawkkinetic.com</p>
+										<a href="mailto:hr@elitevirtualemployee.com"><div><h5 className="mb-0">Join us</h5>
+											<p className="text-muted mb-0">hr@elitevirtualemployee.com</p>
 										</div></a>
 									</div>
 								</div>
@@ -108,7 +108,7 @@ const contact = () => {
 											<span className="ti-email icon-sm color-secondary" />
 										</div>
 										<div><h5 className="mb-0">Mail us</h5>
-											<p className="text-muted mb-0"><a href="mailto:info@skyhawkkinetic.com">info@elitevirtualemployee.com</a></p>
+											<p className="text-muted mb-0"><a href="mailto:info@elitevirtualemployee.com">info@elitevirtualemployee.com</a></p>
 										</div>
 									</div>
 								</div>
@@ -181,34 +181,8 @@ const contact = () => {
 											</div>
 										</div>
 									</div>
-									<div className="col-lg-12 col-md-12 col-sm-12">
-										<div className="card single-promo-card single-promo-hover text-center shadow-sm">
-											<div className="card-body py-5">
-												<div className="pb-2">
-													<span className="ti-mobile icon-sm color-secondary" />
-												</div>
-												<a href="tel:+44-8081966911">
-													<div><h5 className="mb-0">UK office</h5>
-														<p className="text-muted mb-0">+44-8081966911</p>
-													</div>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-12 col-md-12 col-sm-12">
-										<div className="card single-promo-card single-promo-hover text-center shadow-sm">
-											<div className="card-body py-5">
-												<div className="pb-2">
-													<span className="ti-mobile icon-sm color-secondary" />
-												</div>
-												<a href="tel:+61-880041911">
-													<div><h5 className="mb-0">Australia office</h5>
-														<p className="text-muted mb-0">+61-880041911</p>
-													</div>
-												</a>
-											</div>
-										</div>
-									</div>
+									
+									
 									<div className="col-lg-12 col-md-12 col-sm-12">
 										<div className="card single-promo-card single-promo-hover text-center shadow-sm">
 											<div className="card-body py-5">
