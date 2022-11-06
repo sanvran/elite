@@ -8,8 +8,88 @@ import Loader from './component/Layout/Loader/'
 import Services from './component/Layout/Services'
 import Testimonial from './component/Layout/Testimonial'
 import CalltoAction from './component/Layout/CalltoAction'
+import Popup from './component/Popup/Popup'
+import { useState } from 'react'
+
+export const PopUpForm = ({ handleChange }) => {
+  return (
+    <>
+      <div className="row justify-content-around">
+        <div className="col-md-12">
+          <form action="#" method="POST" id="contactForm1" className="contact-us-form" noValidate="novalidate">
+            <div className="form-row">
+              <div className="col-12">
+                <div className="form-group">
+                  <input type="text" onChange={handleChange} className="form-control" name="fname" placeholder="Enter name *" required="required" />
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="form-group">
+                  <input type="email" onChange={handleChange} className="form-control" name="email" placeholder="Enter email *" required="required" />
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="form-group">
+                  <input type="number" onChange={handleChange} className="form-control" name="mobile" placeholder="Enter mobile number *" required="required" maxLength='10' />
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="form-group">
+                  <textarea name="message" onChange={handleChange} id="message" className="form-control" rows={2} cols={3} placeholder="Requirement" defaultValue={""} />
+                </div>
+              </div>
+              {/* <div className="col-sm-12 mt-3">
+                    <input type="submit" onClick={(e) => { handleSubmit(e) }} className="btn secondary-solid-btn" id="btnContactUs" value="Send Message" />
+                  </div> */}
+            </div>
+          </form>
+        </div>
+      </div>
+    </>
+  )
+}
 
 export default function Home() {
+  const initInput = {
+    fname: '',
+    email: '',
+    mobile: '',
+    message: ''
+  }
+  const [openModal, setOpenModal] = useState(true);
+  const [inputData, setInputData] = useState(initInput)
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInputData({ ...inputData, [name]: value })
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (inputData.mobile.length >= 10 && inputData.mobile.length < 10) {
+      return alert('Please enter 10 digit monbile number')
+    }
+    if (inputData.fname === '' || inputData.email === '' || inputData.mobile === '') {
+      return alert('Star (*) field is mandatory')
+    }
+    fetch('/api/contactus', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(inputData)
+    }).then((res) => {
+      alert('Thank you for reaching out to us. Our team will be in touch soon.')
+      console.log('Response received')
+      if (res.status === 200) {
+        console.log('Response succeeded!')
+        setInputData('')
+        setOpenModal(false)
+      }
+    })
+
+  };
+
   return (
     <>
       <Head>
@@ -17,7 +97,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Elite Virtual Employee has rigorously pursued the vision towards bridging the gap between global organizations and top remote professionals from across the world. Experience the best services in remote staffing solutions, vendor management, payroll services amongst many more." />
       </Head>
-
+      <Popup open={openModal} onClose={() => setOpenModal(false)}
+        bodyContent={
+          <PopUpForm
+            setInputData={setInputData}
+            handleChange={handleChange}
+          />
+        }
+        handleSubmit={handleSubmit}
+      />
       {/* main */}
       {/* <!--body content wrap start--> */}
       <div className="main">
@@ -31,7 +119,7 @@ export default function Home() {
                     <div className="hero-content-wrap text-white">
                       {/* <h1 className="text-white">Remote Staffing Solutions Save 70% cost on hiring</h1> */}
                       <h1 className="text-white">Hire your remote staff and save 75%</h1>
-                      <h3 className="text-white" style={{borderTop: '1px solid #eee', borderBottom: '1px solid #eee', padding: 6}}>Starting just $899 - $1999/Month only</h3>
+                      <h3 className="text-white" style={{ borderTop: '1px solid #eee', borderBottom: '1px solid #eee', padding: 6 }}>Starting just $899 - $1999/Month only</h3>
                       {/* <p className="lead"></p> */}
                       <ul className="list-unstyled tech-feature-list text-white">
                         {/* <li className="py-1"><span className="ti-control-forward mr-2"></span><strong>Hire </strong>experienced employees within hours.</li>
@@ -80,6 +168,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/* <!--hero section end--> */}
         {/* <Hero /> */}
         {/* <!--about us section start--> */}
@@ -123,7 +212,7 @@ export default function Home() {
                           <li className="py-1"><span className="ti-control-forward mr-2 color-secondary"></span><strong>Vendor  </strong> Management</li>
                         </ul>
                       </div>
-                     
+
                     </div>
                   </div>
                 </div>

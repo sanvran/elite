@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
-
-
 const contact = () => {
 	const [name, setName] = useState('')
 	const [email, setEmail] = useState('')
@@ -11,12 +9,10 @@ const contact = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		console.log('Sending')
 
 		if (name === '' || email === '' || mobile === '') {
 			alert('Star (*) field is mandatory')
 		} else {
-
 			let data = {
 				name,
 				email,
@@ -42,11 +38,8 @@ const contact = () => {
 					setMessage('')
 				}
 			})
-
 		}
-
-
-	}
+	};
 	return (
 		<>
 			{/*body content wrap start*/}
@@ -181,8 +174,8 @@ const contact = () => {
 											</div>
 										</div>
 									</div>
-									
-									
+
+
 									<div className="col-lg-12 col-md-12 col-sm-12">
 										<div className="card single-promo-card single-promo-hover text-center shadow-sm">
 											<div className="card-body py-5">
