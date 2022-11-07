@@ -1,328 +1,38 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/5K_dge08FszaY67m4dIfJ/_buildManifest.js",
-    "static/5K_dge08FszaY67m4dIfJ/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/5675-1b5d336f38f833e31917.js",
-      "static/chunks/pages/index-91a900a41edd2792c3f4.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/css/d98a8c6ed02f80a62559.css",
-      "static/chunks/pages/_app-b22150935d525404e0b5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/_error-03b271b409748e0f7dc7.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ],
-    "/about": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/about-2d554b2537b3836fc461.js"
-    ],
-    "/angularjs-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/angularjs-developer-1db4ff7d91c9fe10b154.js"
-    ],
-    "/animation-multimedia": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/animation-multimedia-e2b90fa3dea5a6cab534.js"
-    ],
-    "/backend-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/backend-developer-bef16f7a2dc55c369d42.js"
-    ],
-    "/blog-animation-multimedia-industries": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-animation-multimedia-industries-212743f6216cd40bb309.js"
-    ],
-    "/blog-content-writers-affect-growth": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-content-writers-affect-growth-4ba3d3406affe12e974a.js"
-    ],
-    "/blog-digital-marketing-optics": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-digital-marketing-optics-e965263f93fff69f2c3c.js"
-    ],
-    "/blog-hire-web-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-hire-web-developer-94665d33fa905743d1db.js"
-    ],
-    "/blog-misconceptions-remote-staffing": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-misconceptions-remote-staffing-652ef5ac73cca34d18ae.js"
-    ],
-    "/blog-python": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-python-175cbeabf47c7e88972c.js"
-    ],
-    "/blog-vbnet": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-vbnet-81b62972c932f5dee8b6.js"
-    ],
-    "/blog-virtual-assistant": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-virtual-assistant-24350ce12a0dc54d2fe8.js"
-    ],
-    "/blog-why-need-remote-staffing": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blog-why-need-remote-staffing-e5a1d3a4c3af114357f3.js"
-    ],
-    "/blogs": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/blogs-06ec47b1e2750d443069.js"
-    ],
-    "/careers": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/careers-941a5f928511b5d1d774.js"
-    ],
-    "/component/Layout/Achievement": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Achievement-99bb42f24a76fd19a761.js"
-    ],
-    "/component/Layout/CalltoAction": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/CalltoAction-53490ce2c3fc8b2b0a0d.js"
-    ],
-    "/component/Layout/Client": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/5675-1b5d336f38f833e31917.js",
-      "static/chunks/pages/component/Layout/Client-4913ffb4f5b72170b0ea.js"
-    ],
-    "/component/Layout/Footer/Footer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Footer/Footer-57b30f71e63a16c7bca6.js"
-    ],
-    "/component/Layout/Header/Header": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Header/Header-e9c7a490ebcf0a8e336c.js"
-    ],
-    "/component/Layout/Hero": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Hero-894d0acbbb817f3cf8de.js"
-    ],
-    "/component/Layout/HireNow": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/HireNow-cc0b9364f10266e97672.js"
-    ],
-    "/component/Layout/IndustriesServed": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/IndustriesServed-b12eeb5a0dedb8f3b598.js"
-    ],
-    "/component/Layout/Layout": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Layout-aa798423e69717bf3e4c.js"
-    ],
-    "/component/Layout/Loader": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Loader-0db34cd93b26143d3ad4.js"
-    ],
-    "/component/Layout/Services": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Services-d98f2fb3f192d2674f57.js"
-    ],
-    "/component/Layout/Services/ServicesCard": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Services/ServicesCard-f7cda3772ae9a6c1cddc.js"
-    ],
-    "/component/Layout/Testimonial": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/Testimonial-25ed05b9a8afe82449c5.js"
-    ],
-    "/component/Layout/WhyChooseUs": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/component/Layout/WhyChooseUs-d45b87d920acf17cc3d8.js"
-    ],
-    "/contact": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/contact-5740a792fc760bdd74e0.js"
-    ],
-    "/content-writing": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/content-writing-5133139a0a54071f717c.js"
-    ],
-    "/cyber-security-services": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/cyber-security-services-dc08de923a3af173c1a9.js"
-    ],
-    "/digital-marketing": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/digital-marketing-9fcf90dd3f6b98e9dde4.js"
-    ],
-    "/frontend-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/frontend-developer-689d5bf077acf86a0be8.js"
-    ],
-    "/full-stack-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/full-stack-developer-bdd6c7662813a7c530ca.js"
-    ],
-    "/java-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/java-developer-2ffe3232142a346f70a1.js"
-    ],
-    "/legal-process-outsourcing": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/legal-process-outsourcing-8775d695250c50d4016a.js"
-    ],
-    "/mobile-app-development": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/mobile-app-development-691c753694c3275ac786.js"
-    ],
-    "/payroll-management": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/payroll-management-98b8885d2b584553fdce.js"
-    ],
-    "/php-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/php-developer-097fc1e2218a0648eb9e.js"
-    ],
-    "/privacy-policy": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/privacy-policy-67cfffac3744886e6a6b.js"
-    ],
-    "/python-the-future": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/python-the-future-c0f03eff10ec1a8df99a.js"
-    ],
-    "/services": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/services-49fe1bcf5e37ebdcc083.js"
-    ],
-    "/terms-of-service": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/terms-of-service-37949a18abee03d2bfa4.js"
-    ],
-    "/testimonials": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/testimonials-cb621185a6061d495351.js"
-    ],
-    "/vendor-management": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/vendor-management-3669b42e20150304b20e.js"
-    ],
-    "/virtual-assistant": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/virtual-assistant-2aa40b07ac572730f826.js"
-    ],
-    "/web-development": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/web-development-e9cc551d2b42422d923a.js"
-    ],
-    "/wordpress-developer": [
-      "static/chunks/webpack-7c4c4c05609ee1ee2453.js",
-      "static/chunks/framework-ab9173121bc048aad8e7.js",
-      "static/chunks/main-57912d479a549c1bf052.js",
-      "static/chunks/pages/wordpress-developer-0a2483a2d7924fe32079.js"
+    "/next/dist/pages/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
